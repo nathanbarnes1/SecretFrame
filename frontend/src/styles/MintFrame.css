@@ -1,0 +1,124 @@
+.mint-card {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.02), rgba(45, 97, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 18px;
+  color: #e7ebff;
+}
+
+.mint-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.mint-header h3 {
+  margin: 4px 0 0;
+}
+
+.badge {
+  padding: 6px 10px;
+  background: rgba(157, 193, 255, 0.12);
+  color: #9fb7ff;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.mint-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field-label {
+  font-weight: 600;
+}
+
+.text-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #f7f8ff;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.text-field:focus {
+  border-color: rgba(159, 183, 255, 0.8);
+  box-shadow: 0 0 0 4px rgba(159, 183, 255, 0.15);
+}
+
+.help {
+  margin: 0;
+  color: rgba(231, 235, 255, 0.75);
+  font-size: 0.95rem;
+}
+
+.primary {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(120deg, #5b9bff, #315bff);
+  color: #050915;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(49, 91, 255, 0.35);
+}
+
+.status {
+  margin-top: 10px;
+  min-height: 48px;
+}
+
+.muted {
+  color: rgba(231, 235, 255, 0.75);
+  margin: 6px 0 0;
+}
+
+.error {
+  color: #ff9b9b;
+  margin: 6px 0 0;
+}
+
+.key-box {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(159, 183, 255, 0.2);
+  background: rgba(159, 183, 255, 0.05);
+}
+
+.key-label {
+  margin: 0;
+  font-weight: 600;
+}
+
+.key-value {
+  display: block;
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #f7f8ff;
+  word-break: break-all;
+}
+
+.key-hint {
+  margin: 6px 0 0;
+  color: rgba(231, 235, 255, 0.7);
+  font-size: 0.95rem;
+}
